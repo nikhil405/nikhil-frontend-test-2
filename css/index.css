@@ -9,12 +9,12 @@
   float: right;
   margin-top: 30px;
 }
-.nav navbar-nav{
+/*.nav navbar-nav{
   width: 50px;
-}
-.pag{
+}*/
+/*.pag{
   float:center;
-}
+}*/
 input[type=text] {
   width: 130px;
   box-sizing: border-box;
@@ -24,7 +24,6 @@ input[type=text] {
   float: right;
   font-size: 16px;
   background-color: white;
-  background-image: url("download.png");
   background-position: 10px 10px; 
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
@@ -47,10 +46,10 @@ input[type=text]:focus {
   color: white;
   text-align: center;
   height: 80px; }
-
+/*
   #carousel_button li{
     justify-content: center;
-  }
+  }*/
   .scrollToTop{
   /*width:100px; */
   height:130px;
@@ -77,7 +76,6 @@ input[type=text]:focus {
     width:150px;
     background-color: #2badd9;
     float: left;
-    shape-outside: url("7.png");
     margin-left: 30px;
     margin-bottom: 2px;
     margin-right: 5px;
@@ -88,13 +86,24 @@ input[type=text]:focus {
     margin-left: 20px;
   }
   #btn{
-  padding-left: 500px;
+  margin-left: 500px;
   position: relative;
 }
-.right{
+/*.right{
   float: right;
-  margin-right: 490px;
+  padding-left: 500px;
+  margin-left: 530px;
 }
-.left{
-  margin-left: 450px;
+*//*.left{
+  margin-bottom: 50px;
+}*/
+.l{
+  position: absolute;
+    top: 0px;
+    left: 43%;
+}
+.r{
+  position: absolute;
+  right:42%;top: 
+  0px;
 }
